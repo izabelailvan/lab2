@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+}
+
+#app {
+  width: 25%;
+  margin: 0 auto 0 auto;
+}
+
+.user-list {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.title {
+  background-color: #0053c0;
+  padding: 15px 15px 5px 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.user-row-header {
+  padding: 20px 0px 5px 0px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #0053c0;
+}
+
+.user-row {
+  border-bottom: 1px solid #e9e9e9;
+  padding: 15px 0px 5px 0px;
+  text-align: left;
+}
+
+.user-row:hover {
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+
+.user-name {
+  width: 49%;
+  display: inline-block;
+}
+
+.user-city {
+  width: 49%;
+  display: inline-block;
+}
+button{
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color:white;
+  background: #094161;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#textbox{
+  border-radius: 5px;
+}
+
+label{
+  font-weight: bold;
+}
+
+input{
+  border-radius: 5px;
+}
